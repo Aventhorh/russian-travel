@@ -1,0 +1,25 @@
+.lead__image{
+    min-width: 320px;
+    max-width: 984px;
+    height: 615px;
+    background-image: url(../../../images/lead-polka.jpg);
+    background-size: cover;
+}
+
+@media all and (max-width: 1024px) {
+    .lead__image {
+        height: 580px;
+    }
+} 
+
+@media all and (max-width: 768px) {
+    .lead__image {
+        height: 480px;
+    }
+} 
+
+@media all and (max-width: 320px) {
+    .lead__image {
+        height: 200px;
+    }
+} 

@@ -1,0 +1,13 @@
+.places__url-heading{
+    color: #AAAAAA;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+@media all and (max-width: 1024px) {
+    .places__url-heading {
+        margin-left: 1%;
+    }
+} 

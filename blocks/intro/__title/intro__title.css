@@ -1,0 +1,18 @@
+.intro__title{
+    min-width: 288px;
+    max-width: 690px;
+    height: 58px;
+    font-family: 'Bold';
+    line-height: 58px;
+    font-size: 54px;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+@media all and (max-width: 320px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+} 

@@ -1,0 +1,14 @@
+.places__link{
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1024px) {
+    .places__link {
+        margin-left: 1%;
+    }
+} 

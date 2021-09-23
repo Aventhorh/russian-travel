@@ -1,0 +1,21 @@
+.photo-grid{
+    min-width: 288px;
+    max-width: 1184px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
+    gap: .5em;
+    margin-bottom: 92px;
+}
+
+@media all and (min-width: 1280px) {
+    .photo-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+} 
+
+@media all and (max-width: 1024px) {
+    .photo-grid {
+        margin-left: 4%;
+    }
+} 

@@ -1,0 +1,32 @@
+.places__place{
+    min-width: 320px;
+    max-width: 984px;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 48px;
+    column-gap: 40px;
+    margin-left: 2%;
+    margin-bottom: 80px;
+}
+
+@media all and (max-width: 1024px) {
+    .places__place {
+        width: 928px;
+    }
+} 
+
+@media all and (max-width: 768px) {
+    .places__place {
+        width: 720px;
+        margin-bottom: 48px;
+    }
+} 
+
+@media all and (max-width: 320px) {
+    .places__place {
+        width: 320px;
+        margin-bottom: 50px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+} 
