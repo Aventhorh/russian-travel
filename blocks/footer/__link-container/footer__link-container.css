@@ -1,10 +1,12 @@
 .footer__link-container{
-    display: block;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 18px;
 }
 
 @media all and (max-width: 320px) {
     .footer__link-container {
-        display: grid;
         grid-template-columns: repeat(1, 1fr);
         row-gap: 32px;
         margin-bottom: 48px;

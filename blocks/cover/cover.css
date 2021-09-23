@@ -4,6 +4,8 @@
     height: 740px;
     position: relative;
     margin: auto;
+    display: grid;
+    align-items: center;
 }
 
 @media all and (max-width: 1024px) {
