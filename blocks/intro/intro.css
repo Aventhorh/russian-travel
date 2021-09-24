@@ -6,9 +6,3 @@
     flex-direction: column;
     margin-bottom: 4%;
 }
-
-@media all and (max-width: 1024px) {
-    .intro {
-        margin-left: 4%;
-    }
-} 
