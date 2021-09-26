@@ -1,7 +1,7 @@
 .places__link{
     font-size: 18px;
     line-height: 22px;
-    margin: 0;
+    margin: 0 16px;
     color: #fff;
     text-decoration: underline;
     cursor: pointer;
@@ -12,9 +12,3 @@
     opacity: 0.8;
 }
 
-
-@media all and (max-width: 1024px) {
-    .places__link {
-        margin-left: 1%;
-    }
-} 

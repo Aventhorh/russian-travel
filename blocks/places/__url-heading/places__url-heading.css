@@ -2,13 +2,7 @@
     color: #AAAAAA;
     font-size: 12px;
     line-height: 12px;
-    margin: 0;
+    margin: 0 16px;
     margin-bottom: 12px;
     text-transform: uppercase;
 }
-
-@media all and (max-width: 1024px) {
-    .places__url-heading {
-        margin-left: 1%;
-    }
-} 

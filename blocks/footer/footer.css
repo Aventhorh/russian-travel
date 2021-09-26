@@ -1,18 +1,17 @@
 .footer{
-    min-width: 186px;
     max-width: 1184px;
     margin: auto;
     margin-top: 92px;
-    margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 768px) {
     .footer {
         margin-top: 64px;
         margin-left: 0;
-        width: 50px;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 48px;
     }
 } 
