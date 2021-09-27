@@ -7,24 +7,10 @@
     font-style: normal;
     font-weight: normal;
     color: #fff;
-    padding: 2% 2%;
 }
 
-@media all and (max-width: 1024px) {
-    .page {
-        width: 100%;
-    }
-} 
-
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
     .page {
         padding: 0;
-        width: 100%;
-    }
-} 
-
-@media all and (max-width: 320px) {
-    .page {
-        max-width: 100%;
     }
 } 

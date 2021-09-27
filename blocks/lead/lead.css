@@ -4,3 +4,15 @@
     margin: auto;
     margin-bottom: 92px;
 }
+
+@media all and (max-width: 768px) {
+    .lead {
+        margin-bottom: 88px;
+    }
+} 
+
+@media all and (max-width: 767px) {
+    .lead {
+        margin-bottom: 64px;
+    }
+} 

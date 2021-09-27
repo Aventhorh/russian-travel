@@ -4,6 +4,17 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: 4%;
-
+    margin-bottom: 92px;
 }
+
+@media all and (max-width: 768px) {
+    .intro {
+        margin-bottom: 88px;
+    }
+} 
+
+@media all and (max-width: 767px) {
+    .intro {
+        margin-bottom: 64px;
+    }
+} 
