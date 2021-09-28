@@ -1,12 +1,17 @@
 .places__link{
     font-size: 18px;
     line-height: 22px;
-    margin: 0 16px;
     color: #fff;
     text-decoration: underline;
     cursor: pointer;
     transition: opacity 1s ease;
 }
+
+@media all and (max-width: 767px) {
+    .places__link {
+        margin-left: 16px;;
+    }
+} 
 
 .places__link:hover{
     opacity: 0.8;
